@@ -3,12 +3,13 @@ $(document).ready(function(){
 
     event.preventDefault();
     let userNumber = $("#number").val();
-    beepBoop(userNumber)
-    console.log("user number",userNumber);
-    for(let index=0;index<"form1"+1; index+=1){
-    }
+    let beepArray=beepBoop(userNumber)
+    beepArray.forEach(function(num){
+      $("#output").append("<li>" + num + "</li>")
+    });
+    
   
-  });
+  })
 
 
  
@@ -30,7 +31,6 @@ function beepBoop(userInput){
     list.push(replace);
     
   }
-  console.log(list);
   return list
 }
 
