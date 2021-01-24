@@ -13,3 +13,9 @@ Expect: beepBoop(2).toReplace(["boop"]);
 
 Test: "it should replace every instance of a number containing a 1 that does not contain a 2 or a 3 to be replaced by a 'beep'."
 expect: beeBoop(1).toReplace(["beep"]);
+
+
+list of things i need to accomplish:
+1.take user input and create an array with an index the lenght of the inputted number +1
+2.make each object in array numbers from 0-inputed number
+3. 
