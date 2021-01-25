@@ -7,16 +7,15 @@ $(document).ready(function(){
     beepArray.forEach(function(num){
       $("#output").append("<li>" + num + "</li>")
     });
-    
-  
   })
-
-
- 
 });
-
 function beepBoop(userInput){
   let list =[]
+  if (isNaN(userInput)) {
+    alert("enter a real number my dude!")
+    console.log(userInput)
+    return;
+  }
   for(let i=0; i<=userInput; i++){
     let replace = i
     if (i.toString().includes(1)){
@@ -28,8 +27,7 @@ function beepBoop(userInput){
     if (i.toString().includes(3)){
       replace="Won't you be my neighbor?"; 
     }
-    list.push(replace);
-    
+    list.push(replace); 
   }
   return list
 }
