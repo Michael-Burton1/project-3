@@ -43,19 +43,3 @@ function beepBoop(userInput){
 
 
 
- // let array=["1","2","3","4","5","6"]
-  //  let string= "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15";
-  //  let myArray=string.split("");
-  // // for(let i=0; i<myArray.length; i++) { myArray[i] = parseInt(myArray[i], 10);
-  // // if 
-  // let newArray=[];
-  // myArray.forEach(function(number){
-  //   if ("1".includes(number)) {
-  //     newArray.push("beep");
-  //   }else{
-  //     newArray.push(number);
-  //   }
-  // }
-//  }
-
-// }
