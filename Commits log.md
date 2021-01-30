@@ -1,0 +1,1 @@
+I apologize for not understanding that I should be makeing commits even if I am going back to past lessons or trying to figure out how to make a piece of code work. I will from here on out always have a file like this handy in my project and log commits when I havnt added anything to my code but I've still been working.
