@@ -36,7 +36,7 @@ OR
 ## Specifications
 
 ```
-describe: beepBoop()
+Describe: beepBoop()
 Test: if something is inputted that is not a number it should alert user to input a number.
 Expect: beepBoop("hi").toAlert("enter a real number")
 

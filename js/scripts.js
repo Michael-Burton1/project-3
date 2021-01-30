@@ -7,10 +7,15 @@ $(document).ready(function(){
     beepArray.forEach(function(num){
       $("#output").append("<li>" + num + "</li>")
     });
+  });
+  $("#reset").click(function(){
+    console.log("reset clicked");
+    // $("#output").remove("<li></li>");
+    list = [];
   })
 });
+let list =[]
 function beepBoop(userInput){
-  let list =[]
   if (isNaN(userInput)) {
     alert("enter a real number my dude!")
     console.log(userInput)
