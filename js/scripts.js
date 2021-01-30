@@ -8,18 +8,18 @@ $(document).ready(function(){
       $("#output").append("<li>" + num + "</li>")
     });
   });
-  $("#reset").click(function(){
-    console.log("reset clicked");
-    list = [];
-    console.log(list);
-    document.getElementById("output");
-      while ("#output".hasChildNodes()) {
-        list.removeChild(list.firstChild);
-      }   
-  })
+  // $("#reset").click(function(){
+  //   console.log("reset clicked");
+  //   list = [];
+  //   console.log(list);
+  //   document.getElementById("output");
+  //     while (list.hasChildNodes()) {
+  //       list.removeChild(list.firstChild);
+  //     }   
+  // })
 
 });
-let list =[]
+let Numbers =[]
 function beepBoop(userInput){
   if (isNaN(userInput)) {
     alert("enter a real number my dude!")
@@ -37,19 +37,19 @@ function beepBoop(userInput){
     if (i.toString().includes(3)){
       replace="Won't you be my neighbor?"; 
     }
-    list.push(replace); 
+    Numbers.push(replace); 
   }
-  return list
+  return Numbers
 }
 
-// function clear() {
-//   console.log("button clicked");
-//   var list = document.getElementById("output");
-//   while (list.hasChildNodes()) {
-//     list.removeChild(list.firstChild);
-//   }
-// }
-
+function clearIt() {
+  console.log("button clicked");
+  var list = document.getElementById("output");
+  while (list.hasChildNodes()) {
+    list.removeChild(list.firstChild);
+  }
+  Numbers = []
+};
 
 
 
