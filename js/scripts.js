@@ -8,16 +8,7 @@ $(document).ready(function(){
       $("#output").append("<li>" + num + "</li>")
     });
   });
-  // $("#reset").click(function(){
-  //   console.log("reset clicked");
-  //   list = [];
-  //   console.log(list);
-  //   document.getElementById("output");
-  //     while (list.hasChildNodes()) {
-  //       list.removeChild(list.firstChild);
-  //     }   
-  // })
-
+ 
 });
 let Numbers =[]
 function beepBoop(userInput){

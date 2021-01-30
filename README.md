@@ -55,6 +55,10 @@ Expect: beepBoop(2).toReplace(["boop"]);
 
 Test: "it should replace every instance of a number containing a 1 that does not contain a 2 or a 3 to be replaced by a 'beep'."
 Expect: beeBoop(1).toReplace(["beep"]);
+
+Discribe: clearIt()
+Test: it should clear all li from '#output' and reset the numbers array
+Expect: Clearit(on click).toRemoveAll(<li></l1>)
 ```
 
 ## Licensing
