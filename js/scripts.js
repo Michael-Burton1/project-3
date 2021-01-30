@@ -10,9 +10,14 @@ $(document).ready(function(){
   });
   $("#reset").click(function(){
     console.log("reset clicked");
-    // $("#output").remove("<li></li>");
     list = [];
+    console.log(list);
+    document.getElementById("output");
+      while ("#output".hasChildNodes()) {
+        list.removeChild(list.firstChild);
+      }   
   })
+
 });
 let list =[]
 function beepBoop(userInput){
@@ -37,7 +42,13 @@ function beepBoop(userInput){
   return list
 }
 
-
+// function clear() {
+//   console.log("button clicked");
+//   var list = document.getElementById("output");
+//   while (list.hasChildNodes()) {
+//     list.removeChild(list.firstChild);
+//   }
+// }
 
 
 
