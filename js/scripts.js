@@ -1,6 +1,6 @@
-let Numbers =[]
 //Business logic
 function beepBoop(userInput){
+  let Numbers =[]
   if (isNaN(userInput)) {
     alert("enter a real number my dude!")
     return;
@@ -20,7 +20,6 @@ function beepBoop(userInput){
   }
   return Numbers;
 };
-
 function clearIt() {
   var list = document.getElementById("output");
   while (list.hasChildNodes()) {
@@ -33,7 +32,6 @@ function clearIt() {
 
 $(document).ready(function(){
   $("#form1").submit(function(event){
-
     event.preventDefault();
     let userNumber = $("#number").val();
     let beepArray=beepBoop(userNumber)
